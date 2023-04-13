@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*HEADER*/
+
+.header-cuotas {
+    background-color: #f56c3a;
+    font-size: 13px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: #f5f1f1;
+    padding: 4px 0;
+}
+
+/*NAV - PRIMERO Y SEGUNDO MENU*/
+
+.menu1 {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: right;
+    color: #f56c3a;
+}
+
+.primer-menu {
+    color: #f56c3a;
+    font-family: "playfair Display", serif;
+    padding: 0px 0px;
+    height: 0px;
+    justify-content: space-around;
+    font-size: 15px;
+    margin: 25px;
+    text-decoration: none;
+}
+
+
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+}
+
+/*ESTILO PARA el titulo*/
+
+
+.titulo {
+    color: #070707;
+    height: 0px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.nombre {
+    font-size: 30px;
+}
+
+
+/*MAIN INDEX*/
+/*IMAGENES PRINCIPALES DE INDEX*/
+
+.portadas {
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    grid-row: auto;
+
+}
+
+.portada {
+    width: 500px;
+    height: 400px;
+    background-color: white;
+}
+
+.portada img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+/* ESTILO DE CAJA*/
+
+.caja {
+    background-color: #ef7a4ff8;
+    padding: 30px 50px 100px 10px;
+    text-align: center;
+}
+
+/*MAIN DE TODOS LOS PRODUCTOS*/
+
+
+.imagen {
+    width: 90%;
+    height: 290px;
+    object-fit: cover;
+    margin: 30px;
+}
+
+
+.titulo-producto {
+    font-size: 20px;
+}
+
+
+
+/*MAIN NOSOTROS*/
+
+.nosotros {
+    background-color: #ecc;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+        "area1 area2"
+        "area3 area4";
+}
+
+.caja-de-info {
+    width: 100%;
+    height: 450px;
+    background-color: #ecc4b4;
+    font-size: 20px;
+}
+
+.caja-de-info img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.c1 {
+    grid-area: area1;
+    background-color: white;
+}
+
+.c2 {
+    grid-area: area2;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 30px;
+}
+
+.c3 {
+    grid-area: area3;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 150px 30px;
+}
+
+.c4 {
+    grid-area: area4;
+    background-color: white;
+}
+
+
+
+/*FOOTER*/
+
+.footer {
+    background-color: #e5dcdc;
+    padding: 70px;
+    height: 300px;
+    display: flex;
+    margin: 100px 0px 0px 0px;
+    text-decoration: none;
+}
+
+.menu-footer {
+
+    flex-direction: row;
+    text-align: center;
+    color: #f56c3a;
+    text-decoration: none;
+    margin: 40px;
+
+}
