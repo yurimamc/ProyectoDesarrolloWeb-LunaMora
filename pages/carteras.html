@@ -22,25 +22,30 @@
     <header>
         <p class="header-cuotas">CUOTAS SIN INTERÉS - 10% OFF EN EFECTIVO </p>
 
-        <nav>
-            <div class="menu1">
-                <a class="primer-menu" href="../index.html">Inicio</a>
-                <a class="primer-menu" href="./nosotros.html">Nosotros</a>
-                <a class="primer-menu" href="./contacto.html">Contacto</a>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container-fluid">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuprincipal">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="menu1 collapse navbar-collapse" id="menuprincipal">
+                    <a class="primer-menu" href="../index.html">Inicio</a>
+                    <a class="primer-menu" href="pages/nosotros.html">Nosotros</a>
+                    <a class="primer-menu" href="pages/contacto.html">Contacto</a>
+                </div>
             </div>
 
-
-            <a class="titulo" href="../index.html">
-                <h1 class="nombre">LUNA MORA</h1>
-            </a>
         </nav>
+
+        <a class="titulo" href="../index.html">
+            <h1 class="nombre">LUNA MORA</h1>
+        </a>
 
         <nav class="navbar navbar-expand-md navbar-light bg-light">
             <div class="container-fluid">
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menunavegacion">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div id="menunavegacion" class="collapse navbar-collapse">
+                <div id="menunavegacion" class="collapse navbar-collapse menu2">
                     <ul class="navbar-nav ms-3">
                         <li class="nav-item"><a class="nav-link" href="./new-in.html">New In</a></li>
                         <li class="nav-item"><a class="nav-link" href="./carteras.html">Carteras</a></li>
@@ -62,7 +67,7 @@
             <div class="row justify-content-center">
 
 
-                <div class="col-md-auto">
+                <div class="col-lg">
                     <img class="imagen" src="../multimedia/cartera negra con cadena.jpg" alt="bandolera estrella">
                     <p class="titulo-producto">BANDOLERA ESTRELLA</p>
                     <p>$13.350,00</p>
@@ -71,7 +76,7 @@
                 </div>
 
 
-                <div class="col-md-auto">
+                <div class="col-lg">
                     <img class="imagen" src="../multimedia/bandolera_fucsia.jpg" alt="bandolera fucsia">
                     <p class="titulo-producto">BANDOLERA ROSS</p>
                     <p>$12.100,00</p>
@@ -80,7 +85,7 @@
                 </div>
 
 
-                <div class="col-md-auto">
+                <div class="col-lg">
                     <img class="imagen" src="../multimedia/cartera negra con herrajes.jpg"
                         alt="cartera negra con herraje">
                     <p class="titulo-producto">TOTE SOFIA</p>
@@ -95,7 +100,7 @@
         <section class="container">
             <div class="row justify-content-center">
 
-                <div class="col-md-auto">
+                <div class="col-lg">
                     <img class="imagen" src="../multimedia/cartera baguette rosa_.jpg" alt="estuche marron">
                     <p class="titulo-producto">BAGUETTE LUNA</p>
                     <p>$10.150,00</p>
@@ -104,7 +109,7 @@
                 </div>
 
 
-                <div class="col-md-auto">
+                <div class="col-lg">
                     <img class="imagen" src="../multimedia/bandolera negra cuadrada.jpg" alt="bandolera fucsia">
                     <p class="titulo-producto">BANDOLERA RITA</p>
                     <p>$13.400,00</p>
@@ -113,7 +118,7 @@
                 </div>
 
 
-                <div class="col-md-auto">
+                <div class="col-lg">
                     <img class="imagen" src="../multimedia/bandolera beige con crudo__.jpg"
                         alt="cartera negra con herraje">
                     <p class="titulo-producto">BANDOLERA MIEL</p>
@@ -129,7 +134,7 @@
             <div class="row justify-content-center">
 
 
-                <div class="col-md-auto">
+                <div class="col-lg">
                     <img class="imagen" src="../multimedia/bandolera renata gris.jpg"
                         alt="bandolera porta celular gris">
                     <p class="titulo-producto">RENATA GRIS</p>
@@ -139,7 +144,7 @@
                 </div>
 
 
-                <div class="col-md-auto">
+                <div class="col-lg">
                     <img class="imagen" src="../multimedia/cartera hobo marron_.jpg" alt="cartera hobo marron">
                     <p class="titulo-producto">HOBO MARRON</p>
                     <p>$15.800,00</p>
@@ -148,7 +153,7 @@
                 </div>
 
 
-                <div class="col-md-auto">
+                <div class="col-lg">
                     <img class="imagen" src="../multimedia/cartera beige con flores y herrejes dorados.jpg"
                         alt="cartera beige con bordado de flores y herraje dorados">
                     <p class="titulo-producto">BANDOLERA KARINA</p>
@@ -164,11 +169,20 @@
 
     <!--FOOTER-->
     <footer>
-        <div class="footer">
-            <a class="menu-footer" href="../index.html">Inicio</a>
-            <a class="menu-footer" href="./nosotros.html">Nosotros</a>
-            <a class="menu-footer" href="./contacto.html">Contacto</a>
-        </div>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="footer container-fluid">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menufooter">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="menu1 collapse navbar-collapse" id="menufooter">
+                    <a class="menu-footer" href="../index.html">Inicio</a>
+                    <a class="menu-footer" href="./nosotros.html">Nosotros</a>
+                    <a class="menu-footer" href="./contacto.html">Contacto</a>
+                </div>
+                
+            </div>
+        </nav>
+        
     </footer>
 
     <!--SCRIPT BOOTSTRAP-->

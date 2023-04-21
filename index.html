@@ -23,12 +23,18 @@
     <header>
         <p class="header-cuotas"> CUOTAS SIN INTERÉS - 10% OFF EN EFECTIVO </p>
 
-        </nav>
-        <div class="menu1">
-            <a class="primer-menu" href="index.html">Inicio</a>
-            <a class="primer-menu" href="pages/nosotros.html">Nosotros</a>
-            <a class="primer-menu" href="pages/contacto.html">Contacto</a>
-        </div>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container-fluid">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuprincipal">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="menu1 collapse navbar-collapse" id="menuprincipal">
+                    <a class="primer-menu" href="index.html">Inicio</a>
+                    <a class="primer-menu" href="pages/nosotros.html">Nosotros</a>
+                    <a class="primer-menu" href="pages/contacto.html">Contacto</a>
+                </div>
+            </div>
+            
         </nav>
 
         <a class="titulo" href="../index.html">
@@ -40,7 +46,7 @@
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menunavegacion">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div id="menunavegacion" class="collapse navbar-collapse">
+                <div id="menunavegacion" class="collapse navbar-collapse menu2">
                     <ul class="navbar-nav ms-3">
                         <li class="nav-item"><a class="nav-link" href="pages/new-in.html">New In</a></li>
                         <li class="nav-item"><a class="nav-link" href="pages/carteras.html">Carteras</a></li>
@@ -59,21 +65,23 @@
     <main>
 
         <!--IMAGENES PRINCIPALES-->
-        <section class="portadas">
-
-            <div class="portada">
-                <img src="multimedia/dos-amigas-cargando-sus-bolsas-cuero-parque.jpg"
-                    alt="amigas de espalda con bolso de cuero">
+        <section class="container-fluid">
+            <div class="row">
+                <div class="portada col-lg">
+                    <img src="multimedia/dos-amigas-cargando-sus-bolsas-cuero-parque.jpg"
+                        alt="amigas de espalda con bolso de cuero">
+                </div>
+    
+                <div class="portada col-lg">
+                    <img src="multimedia/bandolera fucsia.jpg" alt="mujer tomando cafe con bandolera fucsia">
+                </div>
+    
+                <div class="portada col-lg">
+                    <img src="multimedia/atractiva-mujer-rubia-estilo-jeans-chaqueta-gran-tamano-caminando-contra-pared-calle.jpg"
+                        alt="mujer sentada con cartera rosa">
+                </div>
             </div>
-
-            <div class="portada">
-                <img src="multimedia/bandolera fucsia.jpg" alt="mujer tomando cafe con bandolera fucsia">
-            </div>
-
-            <div class="portada">
-                <img src="multimedia/atractiva-mujer-rubia-estilo-jeans-chaqueta-gran-tamano-caminando-contra-pared-calle.jpg"
-                    alt="mujer sentada con cartera rosa">
-            </div>
+            
         </section>
 
         <h2>Destacados</h2>
