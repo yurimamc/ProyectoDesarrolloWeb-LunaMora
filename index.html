@@ -12,6 +12,8 @@
     <!--LINK BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--ICONOS-->
+    <script src="https://kit.fontawesome.com/818e9a3cc1.js" crossorigin="anonymous"></script>
     <!--LINK AL CCS-->
     <link rel="stylesheet" href="css/style.css">
     <title>Luna Mora</title>
@@ -28,13 +30,15 @@
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuprincipal">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="menu1 collapse navbar-collapse" id="menuprincipal">
-                    <a class="primer-menu" href="index.html">Inicio</a>
-                    <a class="primer-menu" href="pages/nosotros.html">Nosotros</a>
-                    <a class="primer-menu" href="pages/contacto.html">Contacto</a>
+
+                <div class="collapse navbar-collapse menu1" id="menuprincipal">
+                    <ul class="navbar-nav ms-3"></ul>
+                    <li class="nav-item1"><a class="nav-link-primera-barra" href="index.html">Inicio</a></li>
+                    <li class="nav-item1"><a class="nav-link-primera-barra" href="pages/nosotros.html">Nosotros</a></li>
+                    <li class="nav-item1"><a class="nav-link-primera-barra" href="pages/contacto.html">Contacto</a></li>
+                    </ul>
                 </div>
             </div>
-            
         </nav>
 
         <a class="titulo" href="../index.html">
@@ -48,10 +52,13 @@
                 </button>
                 <div id="menunavegacion" class="collapse navbar-collapse menu2">
                     <ul class="navbar-nav ms-3">
-                        <li class="nav-item"><a class="nav-link" href="pages/new-in.html">New In</a></li>
-                        <li class="nav-item"><a class="nav-link" href="pages/carteras.html">Carteras</a></li>
-                        <li class="nav-item"><a class="nav-link" href="pages/billeteras.html">Billeteras</a></li>
-                        <li class="nav-item"><a class="nav-link" href="pages/accesorios.html">Accesorios</a></li>
+                        <li class="nav-item2"><a class="nav-link-segunda-barra" href="pages/new-in.html">New In</a></li>
+                        <li class="nav-item2"><a class="nav-link-segunda-barra" href="pages/carteras.html">Carteras</a>
+                        </li>
+                        <li class="nav-item2"><a class="nav-link-segunda-barra"
+                                href="pages/billeteras.html">Billeteras</a></li>
+                        <li class="nav-item2"><a class="nav-link-segunda-barra"
+                                href="pages/accesorios.html">Accesorios</a></li>
                     </ul>
                 </div>
             </div>
@@ -65,29 +72,139 @@
     <main>
 
         <!--IMAGENES PRINCIPALES-->
-        <section class="container-fluid">
+        <section class="container-fluid success-border-subtle">
             <div class="row">
                 <div class="portada col-lg">
-                    <img src="multimedia/dos-amigas-cargando-sus-bolsas-cuero-parque.jpg"
-                        alt="amigas de espalda con bolso de cuero">
+                    <img src="multimedia/cartera marron con blanco.jpg"
+                        alt="mujer con cartera bandolera marron con blanco">
                 </div>
-    
+
                 <div class="portada col-lg">
                     <img src="multimedia/bandolera fucsia.jpg" alt="mujer tomando cafe con bandolera fucsia">
                 </div>
-    
+
                 <div class="portada col-lg">
-                    <img src="multimedia/atractiva-mujer-rubia-estilo-jeans-chaqueta-gran-tamano-caminando-contra-pared-calle.jpg"
-                        alt="mujer sentada con cartera rosa">
+                    <img src="multimedia/chica sentada con botas gris y cartera bandolera rosa.jpg"
+                        alt="mujer boas gris y cartera bandolera rosa">
                 </div>
             </div>
-            
+
+        </section>
+        <!--PRODUCTOS DESTACADOS-->
+        <h2 class="titulo-productos-destacados">Productos Destacados</h2>
+
+        <!--PRIMERA SECCION -->
+        <section class="container">
+            <div class="row justify-content-center productos-destacados">
+
+                <div class="card col-lg-3 destacados">
+                    <img src="multimedia/cartera hobo marron_.jpg" alt="cartera hobo marron">
+                    <div class="card-body">
+                        <h3 class="nombre-producto">HOBO MARRON</h3>
+                        <p class="precio">$15.800,00</p>
+                        <p class="cuotas-sin-interes">3 cuotas sin interés de $ 5.266,66</p>
+                        <button type="button" class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+
+
+                <div class="card col-lg-3 destacados">
+                    <img src="multimedia/cartera rosa con marrion y blanco.jpg" alt="Cartera simona">
+                    <h3 class="nombre-producto">CARTERA SIMONA</h3>
+                    <div class="card-body">
+                        <p class="precio">$18.150,00</p>
+                        <p class="cuotas-sin-interes">3 cuotas sin interés de $ 6.050,00</p>
+                        <button type="button" class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="card col-lg-3 destacados">
+                    <img src="multimedia/cartera blanca con herrajes dorados.jpg" alt="cartera negra con herraje">
+                    <div class="card-body">
+                        <h3 class="nombre-producto">BANDOLERA KARINA</h3>
+                        <p class="precio">$16.800,00</p>
+                        <p class="cuotas-sin-interes">3 cuotas sin interés de $ 5.600,00</p>
+                        <button type="button" class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <h2>Destacados</h2>
+        <!--SEGUNDA SECCION -->
+        <section class="container">
+            <div class="row justify-content-center productos-destacados">
 
-        <section class="caja">
-            <h2>¡Se la primera en enterarte de todo!</h2>
+                <div class="card col-lg-3 destacados">
+                    <img src="multimedia/cartera violeta con herrajes dorados.jpg" alt="artera hobo marron">
+                    <div class="card-body">
+                        <h3 class="nombre-producto">BANDOLERA CONI</h3>
+                        <p class="precio">$13.800,00</p>
+                        <p class="cuotas-sin-interes">3 cuotas sin interés de $ 4.600,00</p>
+                        <button type="button" class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="card col-lg-3 destacados">
+                    <img src="multimedia/cartera hobo negra.jpg" alt="bandolera fucsia">
+                    <div class="card-body">
+                        <h3 class="nombre-producto">HOBO SOFIA</h3>
+                        <p class="precio">$8.350,00</p>
+                        <p class="cuotas-sin-interes">3 cuotas sin interés de $ 2.783,33</p>
+                        <button type="button" class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="card col-lg-3 destacados">
+                    <img src="multimedia/cartera beige con flores y herrejes dorados.jpg"
+                        alt="cartera negra con herraje">
+                    <div class="card-body">
+                        <h3 class="nombre-producto">BANDOLERA KARINA</h3>
+                        <p class="precio">$13.800,00</p>
+                        <p class="cuotas-sin-interes">3 cuotas sin interés de $ 4.600,00</p>
+                        <button type="button" class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--GIF CARS -->
+        <section class="container">
+            <div class="row justify-content-center gifcard-principal">
+
+                <div class="card col-lg-3 gifcard">
+                    <img src="multimedia/gif cards 20mil.jpg" class="card-img-top" alt="gifcard">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card col-lg-3 gifcard">
+                    <img src="multimedia/gif cards 20mil.jpg" class="card-img-top" alt="gifcard">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+        </section>
+
+
+
+        <section class="boletin-informativo">
+            <P class="titulo-boletin">NEWSLETTER</P>
+            <h2 class="texto-boletin">¡Se la primera en enterarte de todo!</h2>
+            <P class="texto-descuento-boletin">Dejanos tu mail y llevate un 10% off en tu primera compra</P>
+
+            <div class="row mb-1 justify-content-center">
+                <div class="col-sm-5">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                </div>
+            </div>
         </section>
 
 
@@ -95,14 +212,44 @@
     </main>
 
     <!--FOOTER-->
-    <footer class="footer">
-        <div>
-            <a class="menu-footer" href="../index.html">Inicio</a>
-            <a class="menu-footer" href="./nosotros.html">Nosotros</a>
-            <a class="menu-footer" href="./contacto.html">Contacto</a>
-        </div>
-    </footer>
+    <footer CLASS="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <h2><b>Luna Mora</b></h2>
+                <p>Nuestra misión:</p>
+                <p><i>"Elegancia y funcionalidad en cada diseño"</i></p>
+            </div>
 
+            <div class="box">
+                <h2>COMPRAR</h2>
+                <div>
+                    <ul class="listado-barra-nav">
+                        <li class="nav-item2"><a class="nav-link-segunda-barra" href="pages/new-in.html">New In</a></li>
+                        <li class="nav-item2"><a class="nav-link-segunda-barra" href="pages/carteras.html">Carteras</a>
+                        </li>
+                        <li class="nav-item2"><a class="nav-link-segunda-barra"
+                                href="pages/billeteras.html">Billeteras</a></li>
+                        <li class="nav-item2"><a class="nav-link-segunda-barra"
+                                href="pages/accesorios.html">Accesorios</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>Luna Mora</b> - Todos los Derechos Reservados.</small>
+        </div>
+
+    </footer>
 
 
 

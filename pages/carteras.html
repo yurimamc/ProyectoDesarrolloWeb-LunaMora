@@ -12,6 +12,8 @@
     <!--LINK BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--ICONOS-->
+    <script src="https://kit.fontawesome.com/818e9a3cc1.js" crossorigin="anonymous"></script>
     <!--LINK AL CCS-->
     <link rel="stylesheet" href="../css/style.css">
     <title>carteras</title>
@@ -27,13 +29,15 @@
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuprincipal">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="menu1 collapse navbar-collapse" id="menuprincipal">
-                    <a class="primer-menu" href="../index.html">Inicio</a>
-                    <a class="primer-menu" href="pages/nosotros.html">Nosotros</a>
-                    <a class="primer-menu" href="pages/contacto.html">Contacto</a>
+
+                <div class="collapse navbar-collapse menu1" id="menuprincipal">
+                    <ul class="navbar-nav ms-3"></ul>
+                    <li class="nav-item1"><a class="nav-link-primera-barra" href="../index.html">Inicio</a></li>
+                    <li class="nav-item1"><a class="nav-link-primera-barra" href="./nosotros.html">Nosotros</a></li>
+                    <li class="nav-item1"><a class="nav-link-primera-barra" href="./contacto.html">Contacto</a></li>
+                    </ul>
                 </div>
             </div>
-
         </nav>
 
         <a class="titulo" href="../index.html">
@@ -47,10 +51,12 @@
                 </button>
                 <div id="menunavegacion" class="collapse navbar-collapse menu2">
                     <ul class="navbar-nav ms-3">
-                        <li class="nav-item"><a class="nav-link" href="./new-in.html">New In</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./carteras.html">Carteras</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./billeteras.html">Billeteras</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./accesorios.html">Accesorios</a></li>
+                        <li class="nav-item2"><a class="nav-link-segunda-barra" href="./new-in.html">New In</a></li>
+                        <li class="nav-item2"><a class="nav-link-segunda-barra" href="./carteras.html">Carteras</a></li>
+                        <li class="nav-item2"><a class="nav-link-segunda-barra" href="./billeteras.html">Billeteras</a>
+                        </li>
+                        <li class="nav-item2"><a class="nav-link-segunda-barra" href="./accesorios.html">Accesorios</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -67,30 +73,29 @@
             <div class="row justify-content-center">
 
 
-                <div class="col-lg">
+                <div class="col-lg col-productos">
                     <img class="imagen" src="../multimedia/cartera negra con cadena.jpg" alt="bandolera estrella">
-                    <p class="titulo-producto">BANDOLERA ESTRELLA</p>
-                    <p>$13.350,00</p>
-                    <p>3 cuotas sin interés de $ 4.450,00</p>
+                    <h3 class="nombre-producto">BANDOLERA ESTRELLA</h3>
+                    <p class="precio">$13.350,00</p>
+                    <p class="cuotas-sin-interes">3 cuotas sin interés de $ 4.450,00</p>
                     <button type="button" class="btn btn-primary">Comprar</button>
                 </div>
 
 
-                <div class="col-lg">
+                <div class="col-lg col-productos">
                     <img class="imagen" src="../multimedia/bandolera_fucsia.jpg" alt="bandolera fucsia">
-                    <p class="titulo-producto">BANDOLERA ROSS</p>
-                    <p>$12.100,00</p>
-                    <p>3 cuotas sin interés de $ 4.033,33</p>
+                    <h3 class="nombre-producto">BANDOLERA ROSS</h3>
+                    <p class="precio">$12.100,00</p>
+                    <p class="cuotas-sin-interes">3 cuotas sin interés de $ 4.033,33</p>
                     <button type="button" class="btn btn-primary">Comprar</button>
                 </div>
 
 
-                <div class="col-lg">
-                    <img class="imagen" src="../multimedia/cartera negra con herrajes.jpg"
-                        alt="cartera negra con herraje">
-                    <p class="titulo-producto">TOTE SOFIA</p>
-                    <p>$8.350,00</p>
-                    <p>3 cuotas sin interés de $ 2.783,33</p>
+                <div class="col-lg col-productos">
+                    <img class="imagen" src="../multimedia/cartera hobo negra.jpg" alt="cartera negra con herraje">
+                    <h3 class="nombre-producto">HOBO SOFIA</h3>
+                    <p class="precio">$12.40,00</p>
+                    <p class="cuotas-sin-interes">3 cuotas sin interés de $ 2.783,33</p>
                     <button type="button" class="btn btn-primary">Comprar</button>
                 </div>
             </div>
@@ -100,30 +105,30 @@
         <section class="container">
             <div class="row justify-content-center">
 
-                <div class="col-lg">
+                <div class="col-lg col-productos">
                     <img class="imagen" src="../multimedia/cartera baguette rosa_.jpg" alt="estuche marron">
-                    <p class="titulo-producto">BAGUETTE LUNA</p>
-                    <p>$10.150,00</p>
-                    <p>3 cuotas sin interés de $ $ 3.383,33</p>
+                    <h3 class="nombre-producto">BAGUETTE LUNA</h3>
+                    <p class="precio">$10.150,00</p>
+                    <p class="cuotas-sin-interes">3 cuotas sin interés de $ $ 3.383,33</p>
                     <button type="button" class="btn btn-primary">Comprar</button>
                 </div>
 
 
-                <div class="col-lg">
+                <div class="col-lg col-productos">
                     <img class="imagen" src="../multimedia/bandolera negra cuadrada.jpg" alt="bandolera fucsia">
-                    <p class="titulo-producto">BANDOLERA RITA</p>
-                    <p>$13.400,00</p>
-                    <p>3 cuotas sin interés de $ 4.466,66</p>
+                    <h3 class="nombre-producto">BANDOLERA RITA</h3>
+                    <p class="precio">$13.400,00</p>
+                    <p class="cuotas-sin-interes">3 cuotas sin interés de $ 4.466,66</p>
                     <button type="button" class="btn btn-primary">Comprar</button>
                 </div>
 
 
-                <div class="col-lg">
+                <div class="col-lg col-productos">
                     <img class="imagen" src="../multimedia/bandolera beige con crudo__.jpg"
                         alt="cartera negra con herraje">
-                    <p class="titulo-producto">BANDOLERA MIEL</p>
-                    <p>$13.800,00</p>
-                    <p>3 cuotas sin interés de $ 4.600,00</p>
+                    <h3 class="nombre-producto">BANDOLERA MIEL</h3>
+                    <p class="precio">$13.800,00</p>
+                    <p class="cuotas-sin-interes">3 cuotas sin interés de $ 4.600,00</p>
                     <button type="button" class="btn btn-primary">Comprar</button>
                 </div>
             </div>
@@ -134,31 +139,31 @@
             <div class="row justify-content-center">
 
 
-                <div class="col-lg">
+                <div class="col-lg col-productos">
                     <img class="imagen" src="../multimedia/bandolera renata gris.jpg"
                         alt="bandolera porta celular gris">
-                    <p class="titulo-producto">RENATA GRIS</p>
-                    <p>$8.150,00</p>
-                    <p>3 cuotas sin interés de $ $ 2.716,66</p>
+                    <h3 class="nombre-producto">RENATA GRIS</h3>
+                    <p class="precio">$8.150,00</p>
+                    <p class="cuotas-sin-interes">3 cuotas sin interés de $ $ 2.716,66</p>
                     <button type="button" class="btn btn-primary">Comprar</button>
                 </div>
 
 
-                <div class="col-lg">
+                <div class="col-lg col-productos">
                     <img class="imagen" src="../multimedia/cartera hobo marron_.jpg" alt="cartera hobo marron">
-                    <p class="titulo-producto">HOBO MARRON</p>
-                    <p>$15.800,00</p>
-                    <p>3 cuotas sin interés de $ 5.266,66</p>
+                    <h3 class="nombre-producto">HOBO MARRON</h3>
+                    <p class="precio">$15.800,00</p>
+                    <p class="cuotas-sin-interes">3 cuotas sin interés de $ 5.266,66</p>
                     <button type="button" class="btn btn-primary">Comprar</button>
                 </div>
 
 
-                <div class="col-lg">
+                <div class="col-lg col-productos">
                     <img class="imagen" src="../multimedia/cartera beige con flores y herrejes dorados.jpg"
                         alt="cartera beige con bordado de flores y herraje dorados">
-                    <p class="titulo-producto">BANDOLERA KARINA</p>
-                    <p>$13.800,00</p>
-                    <p>3 cuotas sin interés de $ 4.600,00</p>
+                    <h3 class="nombre-producto">BANDOLERA KARINA</h3>
+                    <p class="precio">$13.800,00</p>
+                    <p class="cuotas-sin-interes">3 cuotas sin interés de $ 4.600,00</p>
                     <button type="button" class="btn btn-primary">Comprar</button>
                 </div>
             </div>
@@ -168,21 +173,43 @@
     </main>
 
     <!--FOOTER-->
-    <footer>
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <div class="footer container-fluid">
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menufooter">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="menu1 collapse navbar-collapse" id="menufooter">
-                    <a class="menu-footer" href="../index.html">Inicio</a>
-                    <a class="menu-footer" href="./nosotros.html">Nosotros</a>
-                    <a class="menu-footer" href="./contacto.html">Contacto</a>
-                </div>
-                
+    <footer CLASS="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <h2><b>Luna Mora</b></h2>
+                <p>Nuestra misión:</p>
+                <p><i>"Elegancia y funcionalidad en cada diseño"</i></p>
             </div>
-        </nav>
-        
+
+            <div class="box">
+                <h2>COMPRAR</h2>
+                <div>
+                    <ul class="listado-comprar">
+                        <li class="nav-item2"><a class="nav-link-segunda-barra" href="./new-in.html">New In</a></li>
+                        <li class="nav-item2"><a class="nav-link-segunda-barra" href="./carteras.html">Carteras</a>
+                        </li>
+                        <li class="nav-item2"><a class="nav-link-segunda-barra" href="/billeteras.html">Billeteras</a>
+                        </li>
+                        <li class="nav-item2"><a class="nav-link-segunda-barra" href="./accesorios.html">Accesorios</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>Luna Mora</b> - Todos los Derechos Reservados.</small>
+        </div>
+
     </footer>
 
     <!--SCRIPT BOOTSTRAP-->
