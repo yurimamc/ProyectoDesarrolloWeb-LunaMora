@@ -1,0 +1,55 @@
+/*MAIN CONTACTO*/
+
+.titulo-formulario {
+    text-align: center;
+    font-size: 20px;
+    margin: 35px 20px 0px 0px;
+    font-family: $font-principal;
+}
+
+
+.formulario {
+    align-items: center;
+
+    .col-formulario {
+        padding: 10px;
+
+        .form-control {
+            resize: none;
+        }
+
+        .form-control:focus {
+            background-color: #fb9570;
+            box-shadow: 3px 4px 9px 0px rgba(245, 108, 58, 1);
+            border: none;
+        }
+    }
+
+    .btn-primary {
+        color: white;
+        background-color: #f56c3a;
+        border: #f56c3a;
+
+
+
+
+        .btn-primary:hover {
+            background-color: aqua;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.contactanos {
+    text-align: center;
+    margin: 20px;
+    font-family: $font-principal;
+}

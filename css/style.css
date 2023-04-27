@@ -1,321 +1,309 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 
 /*HEADER*/
-
-.header-cuotas {
-    background-color: #f56c3a;
-    font-size: 13px;
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-    color: #f5f1f1;
-    padding: 4px 0;
+header .header-cuotas {
+  background-color: #f56c3a;
+  font-size: 13px;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  color: #f5f1f1;
+  padding: 4px 0;
+}
+header .titulo {
+  color: #070707;
+  height: 0px;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  text-decoration: none;
+}
+header .titulo .nombre {
+  font-size: 30px;
+}
+header .navbar .menu1 {
+  justify-content: right;
+  list-style: none;
+}
+header .navbar .menu1 .nav-link-primera-barra {
+  color: #f56c3a;
+  font-family: "time new roman" serif;
+  justify-content: space-around;
+  font-size: 13px;
+  padding: 25px;
+  text-decoration: none;
+}
+header .navbar .menu2 {
+  justify-content: center;
+  padding: 15px;
+}
+header .navbar .menu2 .nav-link-segunda-barra {
+  color: black;
+  padding: 30px;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
+}
+header .navbar .menu2 .nav-link-segunda-barra .nav-link-segunda-barra:hover {
+  color: deeppink;
 }
 
-/*BARRAS DE NAVEGACIÓN*/
-
-.menu1 {
-    justify-content: right;
-    list-style: none;
+/*FOOTER*/
+.pie-pagina {
+  width: 100%;
+  background-color: #e5dcdc;
+}
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .titulo-footer {
+  color: #070707;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.pie-pagina .grupo-1 .box .listado-comprar {
+  list-style: none;
+}
+.pie-pagina .grupo-1 .box .listado-comprar .nav-link-segunda-barra {
+  color: black;
+  padding: 30px;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
+}
+.pie-pagina .grupo-1 .box .listado-comprar .nav-link-segunda-barra .nav-link-segunda-barra:hover {
+  color: deeppink;
+}
+.pie-pagina .grupo-1 .box .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  line-height: 45px;
+  color: black;
+  margin-right: 10px;
+}
+.pie-pagina .grupo-1 .box .red-social a .red-social a:hover {
+  color: deeppink;
+}
+.pie-pagina .grupo-2 {
+  color: black;
+  background-color: #e5dcdc;
+  text-align: center;
 }
 
-
-.nav-link-primera-barra {
-    color: #f56c3a;
-    font-family: "time new roman" serif;
-    justify-content: space-around;
-    font-size: 13px;
-    padding: 25px;
-    text-decoration: none;
+/*MAIN DE TODOS LOS PRODUCTOS*/
+.col-productos {
+  padding: 20px;
+  gap: 35px;
+  text-align: center;
 }
-
-
-.menu2 {
-    justify-content: center;
-    padding: 15px;
+.col-productos .imagen {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  margin: 30px;
 }
-
-.nav-link-segunda-barra {
-    color: black;
-    padding: 30px;
-    font-size: 18px;
-    font-family: 'Playfair Display', serif;
-    text-decoration: none;
-
+.col-productos .nombre-producto {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
 }
-
-.nav-link-segunda-barra:hover {
-    color: deeppink;
+.col-productos .precio {
+  font-size: 18px;
+  color: #f56c3a;
 }
-
-/*ESTILO PARA EL TITULO*/
-
-
-.titulo {
-    color: #070707;
-    height: 0px;
-    text-align: center;
-    font-family: 'Playfair Display', serif;
-    font-size: 30px;
-    text-decoration: none;
+.col-productos .cuotas-sin-interes {
+  font-size: 13px;
 }
-
-.nombre {
-    font-size: 30px;
+.col-productos .btn-primary {
+  color: white;
+  background-color: #f56c3a;
+  border: #f56c3a;
 }
-
-
-/*MAIN INDEX*/
+.col-productos .btn-primary .btn-primary:hover {
+  background-color: aqua;
+}
 
 /*IMAGENES PRINCIPALES DE INDEX*/
-
-.portadas {
-    display: grid;
-    grid-template-columns: repeat(3, 500px);
-    grid-row: auto;
-
-}
-
 .portada {
-    width: 500px;
-    height: auto;
-    background-color: white;
-    padding-bottom: 20px;
-
+  width: 500px;
+  height: auto;
+  padding-bottom: 20px;
 }
 
 .portada img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 /*DESTACADOS*/
 .titulo-productos-destacados {
-    background-color: #e5dcdc;
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Playfair Display', serif;
-
+  background-color: #e5dcdc;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
 }
 
 .productos-destacados {
-    padding: 20px;
-    gap: 30px;
-
+  padding: 20px;
+  gap: 30px;
+  text-align: center;
 }
-
-.destacados {
-    padding: 20px;
-    gap: 20px;
+.productos-destacados .destacados {
+  padding: 20px;
+  gap: 20px;
+}
+.productos-destacados .destacados .imagen {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  margin: 30px;
+}
+.productos-destacados .destacados .nombre-producto {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+.productos-destacados .destacados .precio {
+  font-size: 18px;
+  color: #f56c3a;
+}
+.productos-destacados .destacados .cuotas-sin-interes {
+  font-size: 13px;
+}
+.productos-destacados .destacados .btn-primary {
+  color: white;
+  background-color: #f56c3a;
+  border: #f56c3a;
+}
+.productos-destacados .destacados .btn-primary .btn-primary:hover {
+  background-color: aqua;
 }
 
 /*GIFCARDS*/
-
 .gifcard-principal {
-    padding: 20px;
-    gap: 30px;
+  padding: 20px;
+  gap: 30px;
 }
-
-.gifcard {
-    padding: 20px;
-    gap: 20px;
+.gifcard-principal .gifcard {
+  padding: 20px;
+  gap: 20px;
+  align-items: center;
 }
-
-
+.gifcard-principal .gifcard .nombre-producto {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  text-align: center;
+  padding: 5px;
+}
+.gifcard-principal .gifcard .btn-primary {
+  color: white;
+  background-color: #f56c3a;
+  border: #f56c3a;
+}
+.gifcard-principal .gifcard .btn-primary .btn-primary:hover {
+  background-color: aqua;
+}
 
 /* ESTILO DE BOLENTIN INFORMATIVO*/
-
 .boletin-informativo {
-    background-color: #dc33acf8;
-    padding: 30px 50px 100px 10px;
-    text-align: center;
+  background-color: rgba(220, 51, 172, 0.9725490196);
+  padding: 30px 50px 100px 10px;
+  text-align: center;
 }
-
-.titulo-boletin {
-    font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    padding: 10px;
-
+.boletin-informativo .titulo-boletin {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  padding: 10px;
 }
-
-.texto-boletin {
-    font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    padding: 10px;
+.boletin-informativo .texto-boletin {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  padding: 10px;
 }
-
-.texto-descuento-boletin {
-    font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-}
-
-
-
-/*MAIN DE TODOS LOS PRODUCTOS*/
-
-
-.imagen {
-    width: 50%;
-    height: auto;
-    object-fit: cover;
-    margin: 30px;
-}
-
-.destacados {
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    padding: 40px;
-}
-
-.col-productos {
-    text-align: center;
-}
-
-.nombre-producto {
-    font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-}
-
-.precio {
-    font-size: 18px;
-    color: #f56c3a;
-}
-
-.cuotas-sin-interes {
-    font-size: 13px;
-}
-
-.btn-primary {
-    color: white;
-    background-color: #f56c3a;
-    border: #f56c3a;
-}
-
-.btn-primary:hover {
-    background-color: aqua;
+.boletin-informativo .texto-descuento-boletin {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
 }
 
 /*MAIN NOSOTROS*/
-
 .contenido-nosotros {
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    margin: 20px 0px;
-    border: none;
-
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  margin: 20px 0px;
+  border: none;
 }
 
 .col-nosotros {
-    text-align: center;
-    padding: 0px;
-    border: none;
+  text-align: center;
+  padding: 0px;
+  border: none;
 }
 
 .texto-nosotros {
-    font-size: 15px;
-    padding: 5px;
+  font-size: 15px;
+  padding: 5px;
 }
 
 .texto-nosotros2 {
-    font-size: 15px;
-    margin: 30px;
+  font-size: 15px;
+  margin: 30px;
 }
 
 /*MAIN CONTACTO*/
-
 .titulo-formulario {
-    text-align: center;
-    font-size: 20px;
-    margin: 35px 0px 0px 0px;
-    font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 20px;
+  margin: 35px 20px 0px 0px;
+  font-family: "Playfair Display", serif;
 }
 
 .formulario {
-    padding: 5px;
+  align-items: center;
 }
-
-.form-control {
-    resize: none;
+.formulario .col-formulario {
+  padding: 10px;
 }
-
-.form-control:focus {
-    background-color: #fb9570;
-    box-shadow: 3px 4px 9px 0px rgba(245, 108, 58, 1);
-    border: none;
+.formulario .col-formulario .form-control {
+  resize: none;
 }
-
-
+.formulario .col-formulario .form-control:focus {
+  background-color: #fb9570;
+  box-shadow: 3px 4px 9px 0px rgb(245, 108, 58);
+  border: none;
+}
+.formulario .btn-primary {
+  color: white;
+  background-color: #f56c3a;
+  border: #f56c3a;
+}
+.formulario .btn-primary .btn-primary:hover {
+  background-color: aqua;
+}
 
 .contactanos {
-    text-align: center;
-    margin: 20px;
-    font-family: 'Playfair Display', serif;
-}
-
-/*FOOTER*/
-
-
-.pie-pagina {
-    width: 100%;
-    background-color: #e5dcdc;
-
-
-}
-
-.grupo-1 {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
-    padding: 45px 0px;
-}
-
-.box h2 {
-    color: #070707;
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    margin-bottom: 25px;
-
-}
-
-.listado-comprar {
-    list-style: none;
-}
-
-.red-social a {
-    display: inline-block;
-    text-decoration: none;
-    width: 45px;
-    line-height: 45px;
-    color: black;
-    margin-right: 10px;
-}
-
-.red-social a:hover {
-    color: deeppink;
-}
-
-.grupo-2 {
-    color: black;
-    background-color: #e5dcdc;
-    text-align: center;
+  text-align: center;
+  margin: 20px;
+  font-family: "Playfair Display", serif;
 }
 
 /*MEDIAS QUERIES*/
-
-@media screen and (max-width:800px) {
-    .grupo-1 {
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 30px;
-        padding: 35px 0px;
-    }
-
+@media screen and (max-width: 800px) {
+  .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
 }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+/*MAIN DE TODOS LOS PRODUCTOS*/
+
+.col-productos {
+    padding: 20px;
+    gap: 35px;
+    text-align: center;
+
+    .imagen {
+        width: 50%;
+        height: auto;
+        object-fit: cover;
+        margin: 30px;
+    }
+
+    .nombre-producto {
+        font-size: 16px;
+        font-family: $font-secundaria;
+    }
+
+
+    .precio {
+        font-size: 18px;
+        color: $bg-naranja;
+    }
+
+    .cuotas-sin-interes {
+        font-size: 13px;
+    }
+
+    .btn-primary {
+        color: white;
+        background-color: $bg-naranja;
+        border: $bg-naranja;
+
+        .btn-primary:hover {
+            background-color: aqua;
+        }
+    }
+}

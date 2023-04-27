@@ -1,0 +1,64 @@
+/*HEADER*/
+
+
+header {
+
+    .header-cuotas {
+        background-color: #f56c3a;
+        font-size: 13px;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        color: #f5f1f1;
+        padding: 4px 0;
+    }
+
+    .titulo {
+        color: #070707;
+        height: 0px;
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+        text-decoration: none;
+
+        .nombre {
+            font-size: 30px;
+        }
+    }
+
+    .navbar {
+        .menu1 {
+            justify-content: right;
+            list-style: none;
+
+            .nav-link-primera-barra {
+                color: #f56c3a;
+                font-family: "time new roman" serif;
+                justify-content: space-around;
+                font-size: 13px;
+                padding: 25px;
+                text-decoration: none;
+            }
+        }
+
+        .menu2 {
+            justify-content: center;
+            padding: 15px;
+
+            .nav-link-segunda-barra {
+                color: black;
+                padding: 30px;
+                font-size: 18px;
+                font-family: 'Playfair Display', serif;
+                text-decoration: none;
+
+                .nav-link-segunda-barra:hover {
+                    color: deeppink;
+                }
+
+            }
+
+        }
+
+    }
+
+}

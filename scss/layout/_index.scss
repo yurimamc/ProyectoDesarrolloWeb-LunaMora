@@ -1,0 +1,131 @@
+/*IMAGENES PRINCIPALES DE INDEX*/
+
+.portada {
+    width: 500px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.portada img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/*DESTACADOS*/
+.titulo-productos-destacados {
+    background-color: #e5dcdc;
+    text-align: center;
+    font-size: 30px;
+    font-family: $font-principal;
+
+}
+
+.productos-destacados {
+    padding: 20px;
+    gap: 30px;
+    text-align: center;
+
+    .destacados {
+        padding: 20px;
+        gap: 20px;
+
+        .imagen {
+            width: 50%;
+            height: auto;
+            object-fit: cover;
+            margin: 30px;
+        }
+
+        .nombre-producto {
+            font-size: 16px;
+            font-family: $font-secundaria;
+        }
+
+
+        .precio {
+            font-size: 18px;
+            color: $bg-naranja;
+        }
+
+        .cuotas-sin-interes {
+            font-size: 13px;
+        }
+
+        .btn-primary {
+            color: white;
+            background-color: $bg-naranja;
+            border: $color-naranja;
+
+            .btn-primary:hover {
+                background-color: aqua;
+            }
+        }
+    }
+
+}
+
+
+
+/*GIFCARDS*/
+
+.gifcard-principal {
+    padding: 20px;
+    gap: 30px;
+
+    .gifcard {
+        padding: 20px;
+        gap: 20px;
+        align-items: center;
+
+
+        .nombre-producto {
+            font-size: 16px;
+            font-family: $font-secundaria;
+            text-align: center;
+            padding: 5px;
+
+        }
+
+        .btn-primary {
+            color: white;
+            background-color: $bg-naranja;
+            border: $bg-naranja;
+
+
+
+            .btn-primary:hover {
+                background-color: aqua;
+            }
+        }
+    }
+}
+
+
+
+
+/* ESTILO DE BOLENTIN INFORMATIVO*/
+
+.boletin-informativo {
+    background-color: #dc33acf8;
+    padding: 30px 50px 100px 10px;
+    text-align: center;
+
+    .titulo-boletin {
+        font-size: 18px;
+        font-family: $font-secundaria;
+        padding: 10px;
+
+    }
+
+    .texto-boletin {
+        font-size: 30px;
+        font-family: $font-secundaria;
+        padding: 10px;
+    }
+
+    .texto-descuento-boletin {
+        font-size: 18px;
+        font-family: $font-secundaria;
+    }
+}

@@ -1,0 +1,23 @@
+//IMPORTS
+
+@import "base/vars";
+@import "base/reset";
+
+//IMPORTS COMPONENTS
+
+@import "components/navbar";
+@import "components/footer";
+@import "components/productos";
+
+
+
+//IMPORTS LAYOUT
+
+@import "layout/index";
+@import "layout/nosotros";
+@import "layout/new-in";
+@import "layout/contacto";
+@import "layout/carteras";
+@import "layout/billeteras";
+@import "layout/accesorios";
+@import "layout/mediasqueries";
