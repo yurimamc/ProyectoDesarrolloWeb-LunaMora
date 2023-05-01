@@ -263,7 +263,7 @@ header .navbar .menu2 .nav-link-segunda-barra .nav-link-segunda-barra:hover {
 .main-form {
   background-color: rgba(220, 51, 172, 0.9725490196);
   color: black;
-  font-family: "Playfair Display", serif;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
   padding: 0 1.5em;
 }
 
@@ -296,6 +296,10 @@ header .navbar .menu2 .nav-link-segunda-barra .nav-link-segunda-barra:hover {
   padding: 1em;
 }
 
+.titulo-contacto {
+  text-align: center;
+}
+
 .contact-form form button,
 .contact-form form input,
 .contact-form form textarea {
@@ -310,7 +314,8 @@ header .navbar .menu2 .nav-link-segunda-barra .nav-link-segunda-barra:hover {
 }
 
 .contact-form form button {
-  background-color: #f56c3a;
+  background-color: rgb(14, 222, 222);
+  color: black;
   border: 0;
   text-transform: uppercase;
   padding: 1em;
@@ -319,14 +324,14 @@ header .navbar .menu2 .nav-link-segunda-barra .nav-link-segunda-barra:hover {
 
 .contact-form form button:hover,
 .contact-form form button:focus {
-  background-color: aqua;
+  background-color: #f56c3a;
   color: black;
   transition: background-color 1s ease-out;
   outline: 0;
 }
 
 .contact-info {
-  background-color: rgba(205, 67, 166, 0.9725490196);
+  background-color: rgba(190, 6, 138, 0.9725490196);
 }
 
 .contact-info h4,
@@ -345,24 +350,6 @@ header .navbar .menu2 .nav-link-segunda-barra .nav-link-segunda-barra:hover {
   padding: 0.3em;
 }
 
-/*largen screen contacto*/
-@media (min-width: 700px) {
-  .main-form {
-    padding: 0 4rem;
-  }
-  .clasificacion-formulario {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-  }
-  .clasificacion-formulario > * {
-    padding: 2em;
-  }
-  .contact-form h4,
-  .contact-form ul,
-  .contact-form p {
-    padding: 1em;
-  }
-}
 /*MEDIAS QUERIES FORMULARIO*/
 /*largen screen contacto*/
 @media (min-width: 700px) {

@@ -3,7 +3,7 @@
 .main-form {
     background-color: #dc33acf8;
     color: black;
-    font-family: $font-principal;
+    font-family: $font-secundaria;
     padding: 0 1.5em;
 }
 
@@ -33,9 +33,16 @@
 
 }
 
+.block-button {}
+
+
 .contact-form form p {
     margin: 0;
     padding: 1em;
+}
+
+.titulo-contacto {
+    text-align: center;
 }
 
 
@@ -53,7 +60,8 @@
 }
 
 .contact-form form button {
-    background-color: #f56c3a;
+    background-color: rgb(14, 222, 222);
+    color: black;
     border: 0;
     text-transform: uppercase;
     padding: 1em;
@@ -62,7 +70,7 @@
 
 .contact-form form button:hover,
 .contact-form form button:focus {
-    background-color: aqua;
+    background-color: $bg-naranja;
     color: black;
     transition: background-color 1s ease-out;
     outline: 0;
@@ -70,7 +78,7 @@
 
 
 .contact-info {
-    background-color: #cd43a6f8;
+    background-color: #be068af8;
 }
 
 .contact-info h4,
@@ -87,29 +95,4 @@
 
 .contact-info ul li {
     padding: .3em;
-}
-
-/*largen screen contacto*/
-
-@media (min-width:700px) {
-
-    .main-form {
-        padding: 0 4rem;
-    }
-
-    .clasificacion-formulario {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-    }
-
-    .clasificacion-formulario>* {
-        padding: 2em;
-    }
-
-    .contact-form h4,
-    .contact-form ul,
-    .contact-form p {
-        padding: 1em;
-    }
-
 }
