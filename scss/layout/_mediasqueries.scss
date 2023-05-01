@@ -1,11 +1,45 @@
-/*MEDIAS QUERIES*/
+/*MEDIAS QUERIES FORMULARIO*/
+
+/*largen screen contacto*/
+
+@media (min-width:700px) {
+
+    .main-form {
+        padding: 0 4rem;
+    }
+
+    .clasificacion-formulario {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .clasificacion-formulario>* {
+        padding: 2em;
+    }
+
+    .contact-form h4,
+    .contact-form ul,
+    .contact-form p {
+        padding: 1em;
+    }
+
+}
+
+
+/*MEDIAS QUERIES FOOTER*/
 
 @media screen and (max-width:800px) {
-    .grupo-1 {
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 30px;
-        padding: 35px 0px;
+
+    .pie-pagina {
+
+        .grupo-1 {
+            width: 90%;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 30px;
+            padding: 35px 0px;
+        }
+
     }
+
 
 }
