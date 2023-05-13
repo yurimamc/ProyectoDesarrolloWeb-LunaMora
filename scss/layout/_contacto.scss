@@ -5,94 +5,132 @@
     color: black;
     font-family: $font-secundaria;
     padding: 0 1.5em;
+
+    .formularios {
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1.5em;
+
+        .clasificacion-formulario {
+            box-shadow: 0 0 20px 0 white;
+
+            .contact-form form {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+
+
+                .block {
+                    grid-column: 1 / 3;
+                }
+
+                .p {
+                    margin: 0;
+                    padding: 1em;
+                }
+
+                button,
+                input,
+                textarea {
+                    width: 100%;
+                    padding: .7em;
+                    border: none;
+                    resize: none;
+                    background: none;
+                    outline: 0;
+                    border-bottom: 1px solid white;
+                    color: white;
+                }
+
+                button {
+                    background-color: rgb(14, 222, 222);
+                    color: black;
+                    border: 0;
+                    text-transform: uppercase;
+                    padding: 1em;
+                    border-radius: 5px;
+
+                    &:hover,
+                    &:focus {
+                        background-color: $bg-naranja;
+                        color: black;
+                        transition: background-color 1s ease-out;
+                        outline: 0;
+                    }
+                }
+            }
+        }
+
+        .clasificacion-formulario>* {
+            padding: 1em;
+        }
+
+        .contact-info {
+            background-color: #be068af8;
+
+            .masinfo {
+                text-align: center;
+                margin: 0 0 1rem 0;
+            }
+
+            .listado-redes {
+                list-style: none;
+                padding: 0;
+
+                li {
+                    padding: 50px 15px 10px 10px;
+                    text-align: center;
+                }
+            }
+        }
+    }
 }
 
-.formularios {
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1.5em;
-}
-
-
-.clasificacion-formulario {
-    box-shadow: 0 0 20px 0 white;
-}
-
-.clasificacion-formulario>* {
-    padding: 1em;
-}
-
-.contact-form form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.block {
-    grid-column: 1 / 3;
-
-}
-
-.block-button {}
-
-
-.contact-form form p {
-    margin: 0;
-    padding: 1em;
-}
 
 .titulo-contacto {
     text-align: center;
 }
 
 
-.contact-form form button,
-.contact-form form input,
-.contact-form form textarea {
-    width: 100%;
-    padding: .7em;
-    border: none;
-    resize: none;
-    background: none;
-    outline: 0;
-    border-bottom: 1px solid white;
-    color: white;
-}
 
-.contact-form form button {
-    background-color: rgb(14, 222, 222);
-    color: black;
-    border: 0;
-    text-transform: uppercase;
-    padding: 1em;
-    border-radius: 5px;
-}
-
-.contact-form form button:hover,
-.contact-form form button:focus {
-    background-color: $bg-naranja;
-    color: black;
-    transition: background-color 1s ease-out;
-    outline: 0;
-}
+// .contact-form form button,
+// .contact-form form input,
+// .contact-form form textarea {
+//     width: 100%;
+//     padding: .7em;
+//     border: none;
+//     resize: none;
+//     background: none;
+//     outline: 0;
+//     border-bottom: 1px solid white;
+//     color: white;
+// }
 
 
-.contact-info {
-    background-color: #be068af8;
-}
 
-.contact-info h4,
-.contact-info ul,
-.contact-info p {
-    text-align: center;
-    margin: 0 0 1rem 0;
-}
 
-.contact-info ul {
-    list-style: none;
-    padding: 0;
-}
 
-.contact-info ul li {
-    padding: .3em;
-}
+
+
+
+
+
+
+
+
+// .contact-form form button {
+//     background-color: rgb(14, 222, 222);
+//     color: black;
+//     border: 0;
+//     text-transform: uppercase;
+//     padding: 1em;
+//     border-radius: 5px;
+// }
+
+// .contact-form form button:hover,
+// .contact-form form button:focus {
+//     background-color: $bg-naranja;
+//     color: black;
+//     transition: background-color 1s ease-out;
+//     outline: 0;
+// }

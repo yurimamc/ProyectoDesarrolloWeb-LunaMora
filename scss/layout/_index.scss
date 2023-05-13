@@ -1,28 +1,40 @@
 /*IMAGENES PRINCIPALES DE INDEX*/
 
-.portada {
-    width: 500px;
-    height: auto;
-    padding-bottom: 20px;
+.row {
+
+    .portada {
+        width: 500px;
+        height: auto;
+        padding-bottom: 20px;
+        transition: 1s;
+    }
+
+    .portada img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 5px;
+
+        &:hover {
+            transform: translateY(20PX);
+            transition: 0.5s;
+        }
+    }
 }
 
-.portada img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
 
 /*DESTACADOS*/
 .titulo-productos-destacados {
     background-color: #e5dcdc;
     text-align: center;
     font-size: 30px;
+    margin: 30px 0px;
     font-family: $font-principal;
 
 }
 
 .productos-destacados {
-    padding: 20px;
+    padding: 30px;
     gap: 30px;
     text-align: center;
 
@@ -35,6 +47,7 @@
             height: auto;
             object-fit: cover;
             margin: 30px;
+
         }
 
         .nombre-producto {
@@ -57,8 +70,9 @@
             background-color: $bg-naranja;
             border: $color-naranja;
 
-            .btn-primary:hover {
+            &:hover {
                 background-color: aqua;
+                transition: 1s;
             }
         }
     }
@@ -92,10 +106,9 @@
             background-color: $bg-naranja;
             border: $bg-naranja;
 
-
-
-            .btn-primary:hover {
+            &:hover {
                 background-color: aqua;
+                transition: 1s;
             }
         }
     }

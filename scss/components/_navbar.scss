@@ -37,6 +37,11 @@ header {
                 font-size: 13px;
                 padding: 25px;
                 text-decoration: none;
+
+                &:hover {
+                    color: deeppink;
+                    transition: 1s;
+                }
             }
         }
 
@@ -51,8 +56,9 @@ header {
                 font-family: 'Playfair Display', serif;
                 text-decoration: none;
 
-                .nav-link-segunda-barra:hover {
+                &:hover {
                     color: deeppink;
+                    transition: 1s;
                 }
 
             }

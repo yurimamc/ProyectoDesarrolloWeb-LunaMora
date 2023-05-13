@@ -4,6 +4,7 @@
 .pie-pagina {
     width: 100%;
     background-color: #e5dcdc;
+    margin: 70px 0px 0px 0px;
 
     .grupo-1 {
         width: 100%;
@@ -33,7 +34,7 @@
                     font-family: $font-principal;
                     text-decoration: none;
 
-                    .nav-link-segunda-barra:hover {
+                    &:hover {
                         color: deeppink;
                     }
 
@@ -46,12 +47,15 @@
                 display: inline-block;
                 text-decoration: none;
                 width: 45px;
+                height: 45px;
                 line-height: 45px;
                 color: black;
                 margin-right: 10px;
+                text-align: center;
 
-                .red-social a:hover {
+                &:hover {
                     color: deeppink;
+                    transition: 1s;
                 }
             }
 
