@@ -13,6 +13,9 @@ header .header-cuotas {
   color: #f5f1f1;
   padding: 4px 0;
 }
+header .header-cuotas p {
+  background-color: none;
+}
 header .titulo {
   color: #070707;
   height: 0px;
